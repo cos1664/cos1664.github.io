@@ -6,6 +6,9 @@ $colors: (
     txt:                   #999999,
     txt-fonce:              #000000,
     txt-clair:             #ffffff,
+    contour:                  #e0e0e0,
+    bords: linear-gradient(to right, #ffffff 0%, #e0e0e0 35%, #e0e0e0 70%, #ffffff 100%),
+
     hover:                  #828fff,
     footer:                  #05071c
 );
