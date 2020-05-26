@@ -1,0 +1,61 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: map-get($fonts , main );
+    font-size: 14px;
+    color: map-get($colors , txt );
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: map-get($colors , bg-color );
+}
+
+.container {
+    margin: 0 auto;
+    width: 92%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 1000;
+    padding: 2rem 0 2rem 0;
+    color: map-get($colors , txt-fonce );
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 1000;
+    padding-bottom: 1rem;
+    color: map-get($colors , txt-fonce );
+    text-align: center;  
+}
+
+h3 {
+    font-size: 19px;
+    font-weight: 1000;
+    color: map-get($colors , txt-fonce );
+    padding: 1.5rem 0 1rem 0;
+}
+
+h4 {
+    font-size: 15px;
+    padding-bottom: 1rem;
+    color: map-get($colors , txt-fonce );    
+}
+
+button {
+    font-size: 14px;
+    padding: 12px 25px 12px 25px;
+    margin-top: 18px;
+    background: map-get($colors , gradient );
+    color: map-get($colors , txt-clair );
+    border: none;
+}
+
+.footer-newsletter input {
+    font-size: 14px;
+    padding: 9px 2px 9px 2px;
+}

@@ -1,0 +1,191 @@
+.banner {
+    background: map-get($colors , gradient );
+    padding: 6rem 0 6rem 0;
+}
+
+.banner h1 {
+    color: map-get($colors , txt-clair );
+    font-size: 43px;
+    text-align: center;
+}
+
+.banner p {
+    color: map-get($colors , txt-clair );
+    text-align: center;
+}
+
+.about-aboutme {
+    padding-top: 5rem;
+}
+
+.about-aboutme-txt .texte-majuscule {
+    padding-top: 2rem;
+}
+
+.about-aboutme-txt h2 {
+    text-align: left;
+    padding: 2rem 0 2rem 0;
+}
+
+.about-tools {
+    padding: 5rem 0 8rem 0;
+}
+
+.about-tools h3 {
+    padding-top: 4rem;
+}
+
+.about-tools p {
+    line-height: 1.7;
+    margin-top: 2rem;
+}
+
+
+
+
+
+.skills {
+    margin-bottom: 2rem;   
+}
+
+.skills p {
+    text-align: right;
+}
+
+.barre {
+	width: 100%;
+	background: #ddd;
+	height: 14px;
+	border-radius: 10px;
+    border: 3px solid rgb(241, 241, 241);
+}
+
+.skill-titre {
+	width: 59px;
+	font-weight: bold;
+}
+
+.barre-color {
+	width: 0%;
+	background: #ddd;
+	height: 100%;
+	border-radius: 10px;
+}
+
+.barre-aftereffects {
+    width: 85%;
+    background: map-get($colors , gradient );
+	height: 100%;
+	border-radius: 10px;
+}
+
+.barre-photoshop {
+    width: 90%;
+    background: map-get($colors , gradient );
+	height: 100%;
+	border-radius: 10px;
+}
+
+.barre-illustrator {
+    width: 70%;
+    background: map-get($colors , gradient );
+	height: 100%;
+	border-radius: 10px;
+}
+
+.barre-sublime {
+    width: 95%;
+    background: map-get($colors , gradient );
+	height: 100%;
+	border-radius: 10px;
+}
+
+.barre-sketch {
+    width: 85%;
+    background: map-get($colors , gradient );
+	height: 100%;
+	border-radius: 10px;
+}
+
+.about-feedback {
+    background: map-get($colors , second-bg-color );
+    padding-bottom: 5rem;
+}
+
+.about-feedback p {
+    line-height: 1.7;
+    text-align: center;
+}
+
+.about-feedback-title {
+    padding: 8rem 0 8rem 0;
+}
+
+.about-feedback-image {
+    float: left;
+}
+
+.about-feedback img {
+    padding: 5px;
+}
+
+.about-feedback-texte {
+    float: right;
+}
+
+.about-feedback-texte p, cite {
+    text-align: left;
+    padding: 0 0 0 0.5rem;
+}
+
+.about-feedback-texte h3 {
+    text-align: left;
+    padding: 1rem 0 0 0.5rem;
+}
+
+.about-feedback-encart {
+    background: map-get($colors , bg-color );
+}
+
+.about-feedback blockquote {
+    background: map-get($colors , bg-color );
+    padding-top: 2rem;
+    min-height: 210px;
+}
+
+.about-feedback-harriet {
+    display: block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.about-feedback-carolyn {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .skills {
+        width: calc(100% - 1rem);
+        margin-bottom: 2rem;       
+    }
+
+    .about-feedback-encart {
+        background: none;
+        padding-right: 12.5%;
+        padding-left: 12.5%; 
+    }
+
+    .about-feedback-carolyn {
+        display: block;
+        margin-left: 1rem;
+    margin-right: 1rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 992px) {
+
+}
+
+

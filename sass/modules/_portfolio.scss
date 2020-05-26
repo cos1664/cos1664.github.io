@@ -1,0 +1,25 @@
+.banner i {
+    padding: 0 1rem 0 1rem;
+}
+
+.portfolio {
+    background: map-get($colors , bg-color );
+    padding-bottom: 8rem;
+}
+
+.portfolio-title p {
+    line-height: 1.7;
+    text-align: center;
+}
+
+.portfolio-title {
+    padding: 8rem 0 8rem 0;
+}
+
+.portfolio h3 {
+    text-align: center;
+}
+
+.portfolio p {
+    text-align: center;
+}
