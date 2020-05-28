@@ -96,16 +96,10 @@
     margin: 0;
 }
 
-
-.blog-encartpub {
-    width: 320px;
-    height: 250px;
-}
-
 aside {
     border: 1px solid map-get($colors , contour );
-    background: map-get($colors , bg-color );
-    margin: 5rem 1rem 1rem 1rem;
+    background: map-get($colors , aside-bg-color );
+    margin: 5rem 0 1rem 1rem;
 }
 
 aside h2 {
@@ -117,8 +111,8 @@ aside h2 {
 }
 
 .blog-bandeau {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .blog-search {
@@ -126,7 +120,7 @@ aside h2 {
     border-bottom: 1px solid map-get($colors , contour );
 }
 
-aside form, input {
+.blog-search form, .blog-search input {
     background: map-get($colors , second );
     border: none;
     height: 2.5rem;
@@ -168,8 +162,10 @@ span.lnr.lnr-magnifier {
     font-size: 1rem;
 }
 
-.blog-popularpost {
+.blog-popularpost section {
     margin: 2rem 0 3rem 0;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid map-get($colors , contour );
 }
 
 .blog-popularpost article {
@@ -181,9 +177,97 @@ span.lnr.lnr-magnifier {
     padding: 0 0 0 1rem;
 }
 
-.blog-bandeau time {
+.blog-popularpost h3 a {
+    text-decoration: none;
+    color: map-get($colors , txt-fonce );
+}
+
+.blog-bandeau time-ago {
     padding: 0 0 0 1rem;
     margin: 0;
+}
+
+.blog-encartpub {
+    margin: 2rem 0 3rem 0;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid map-get($colors , contour );
+}
+
+.blog-postcat tr {
+    border-top: 1px  map-get($colors , contour ) dotted;
+    height: 3rem;
+}
+
+.blog-postcat table {
+    table-layout: unset;;
+    width: 100%;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid map-get($colors , contour );
+}
+
+.blog-postcat table td:nth-child(2) {
+    text-align: right;
+}
+
+.blog-postcat table td {
+    border-bottom: 1px  map-get($colors , contour ) dotted;
+}
+
+.blog-newsletter {
+    margin: 2rem 0 3rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid map-get($colors , contour );
+}
+
+.blog-newsletter h2 {
+    margin-bottom: 2rem;
+}
+
+.blog-newsletter p {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.blog-newsletter form, .blog-newsletter input {
+    height: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+button.blog-newsletter-btn {
+    height: 2.5rem;
+    font-size: 10px;
+    background: map-get($colors , gradient );
+    color: map-get($colors , txt-clair );
+    border: none;
+}
+
+
+
+.blog-newsletter input {
+    width: 70%;
+}
+
+.blog-newsletter button {
+    width: auto;
+}
+
+.blog-tag span {
+    line-height: 3rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid map-get($colors , contour );
+}
+
+.blog-tag h2 {
+    margin-bottom: 2rem;
+}
+
+.blog-tag {
+    margin-bottom: 3rem;
+}
+
+.blog-tag a {
+    text-decoration: none;
+    color: map-get($colors , txt );
 }
 
 @media screen and (min-width: 768px) {
